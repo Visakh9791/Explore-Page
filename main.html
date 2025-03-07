@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-con{
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    min-height:100vh;
+    background-size: cover;
+    padding-top:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:30px;
+}
+
+@media screen and (min-width: 768px){
+    .bg-con{
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+    }
+}
+
+.tvlcon{
+    width:90%;
+    max-width:450px;
+}
+
+@media screen and (min-width: 768px){
+    .tvlcon{
+        
+        max-width:6000px;
+}
+}
+
+.head{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:30px;
+    text-align:center;
+}
+
+@media screen and (min-width: 768px){
+    .head{
+        font-size:45px;
+    }
+}
+
+.des{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:20px;
+    text-align:center;
+}
+
+.buttoncon{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:44px;
+}
+
+@media screen and (min-width: 768px){
+    .buttoncon{
+        flex-direction:row;
+        margin-top:44px;
+    }
+}
+
+.button{
+    font-family:"Roboto";
+    font-size:18px;
+    font-weight:700;
+    border-radius:36px;
+    padding-bottom:14px;
+    padding-top:14px;
+    padding-left:48px;
+    padding-right:48px;
+}
+
+.getstart{
+    color:#183b56;
+    background-color:#ffffff;
+    border:none;
+    margin-bottom:20px;
+}
+
+@media screen and (min-width: 768px){
+    .getstart{
+        margin-right: 20px;
+    }
+}
+
+.knowmore{
+    background-color: transparent;
+    color:#ffffff;
+    border:2px solid #ffffff;
+    margin-top:24px;
+}
+
+@media screen and (min-width: 768px){
+    .knowmore{
+        margin-top:0px;
+    }
+}
+    </style>
+  </head>
+  <body>
+  <div class="bg-con">
+      <div class="tvlcon">
+          <h1 class="head">Roaming Free: The Art of Exploration</h1>
+          <p class="des">Dream, Explore, Discover</p>
+          <div class="buttoncon">
+              <button class="button getstart">Get Started</button>
+              <button class="button knowmore">Know More</button>
+          </div>
+      </div>
+  </div>
+  <div class="con2">
+          <h1 class="head">start explore</h1>
+          <p class="des">lost yourself</p>
+          
+          <button class="button1">Get Started</button>
+          <button class="button2">Know More</button>
+          
+      </div>
+  </body>
+</html>
